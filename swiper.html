@@ -1,0 +1,45 @@
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p>Juice WRLD</p>
+        <a href="./life.html" class="btn">Life</a>
+        <a href="./albums.html" class="btn">Albums</a>
+        <a href="./index.html" class="btn__active">Home</a>
+        <a href="./about.html" class="btn">About</a>
+      </nav>
+    </header>
+    <main>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./src/images/image.avif" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./../src/images/life.avif" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./../src/images/web.avif" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </main>
+    <footer>
+      <p>© 2025 Marek Šťástka. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/script/swiper.js"></script>
+  </body>
+</html>
